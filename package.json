@@ -1,0 +1,45 @@
+{
+  "name": "grunt-phantom",
+  "description": "Start PhantomJS web driver.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/behrang/grunt-phantom",
+  "author": {
+    "name": "Behrang Noruzi Niya",
+    "email": "behrangn@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/behrang/grunt-phantom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/behrang/grunt-phantom/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/behrang/grunt-phantom/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1",
+    "wd": "0.0.33"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "phantomjs": "~1.9.1-0"
+  }
+}
