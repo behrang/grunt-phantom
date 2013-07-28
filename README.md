@@ -29,10 +29,12 @@ grunt.initConfig({
       port: 4444
     },
     your_target: {
+    },
+    another_target: {
       options: {
         port: 5555
       }
-    },
+    }
   }
 })
 ```
@@ -50,13 +52,15 @@ The web driver port in PhantomJS. Effectively:
 ### Usage Examples
 
 #### Default Options
-In case you want to use the default 4444 port, you can omit the configuration. Otherwise, if you want to use a different web driver port, set it like this:
+In case you want to use the default 4444 port, you can omit the `port` option. Otherwise, if you want to use a different web driver port, set it like this:
 
 ```js
 grunt.initConfig({
   phantom: {
     options: {
       port: 5555
+    },
+    cucumber: {
     }
   }
 })
@@ -71,9 +75,9 @@ grunt.initConfig({
     options: {
       port: 5555
     },
-    wd1: {
+    cucumber: {
     },
-    wd2: {
+    mocha: {
       options: {
         port: 6666
       }
@@ -82,7 +86,7 @@ grunt.initConfig({
 })
 ```
 
-Here, if you run `grunt phantom`, two web drivers will be launched, wd1 on port 5555 and wd2 on port 6666.
+Here, if you run `grunt phantom`, two web drivers will be launched, cucumber on port 5555 and mocha on port 6666.
 
 #### PhantomJS Output
 If you want to see the output of PhantomJS, pass `--debug` option to your grunt command:
