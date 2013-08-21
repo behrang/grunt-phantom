@@ -28,10 +28,10 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-jshint": "~0.6.3",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt": "~0.4.1",
-    "wd": "0.0.33"
+    "wd": "~0.1.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
@@ -40,6 +40,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "phantomjs": "~1.9.1-0"
+    "phantomjs": "~1.9.1-8"
   }
 }
