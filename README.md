@@ -2,6 +2,9 @@
 
 > Start PhantomJS web driver.
 
+[![Dependency Status](https://gemnasium.com/behrang/grunt-phantom.png)](https://gemnasium.com/behrang/grunt-phantom)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/behrang/grunt-phantom/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
 
