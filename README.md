@@ -2,6 +2,7 @@
 
 > Start PhantomJS web driver.
 
+[![Build Status](https://travis-ci.org/behrang/grunt-phantom.png?branch=master)](https://travis-ci.org/behrang/grunt-phantom)
 [![Dependency Status](https://gemnasium.com/behrang/grunt-phantom.png)](https://gemnasium.com/behrang/grunt-phantom)
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/behrang/grunt-phantom/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
