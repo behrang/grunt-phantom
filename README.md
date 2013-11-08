@@ -14,6 +14,13 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 ```shell
 npm install grunt-phantom --save-dev
 ```
+The plugin assumes you have PhantomJS installed globally. If you do not wish to have it installed globally, you can install it as an optional dependency:
+
+```shell
+# From your project's root directory
+cd node_modules/grunt-phantom/
+npm install --optional
+```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
