@@ -11,9 +11,15 @@
 module.exports = function(grunt) {
 
   grunt.registerMultiTask('phantom', 'Start PhantomJS web driver.', function() {
-    var options, port, stopped, fatal, done, phantom, binPath;
+    var options, port, stopped, fatal, done, phantom, binPath, which;
 
-    binPath = require('phantomjs').path;
+    // Try the global path first. Fallback to the phantom as an optional dependency.
+    try {
+      which = require('which');
+      binPath = which.sync('phantomjs');
+    } catch(e) {
+      binPath = require('phantomjs').path;
+    }
 
     // Merge task-specific and/or target-specific options with these defaults.
     options = this.options({
