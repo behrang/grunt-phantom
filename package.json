@@ -40,7 +40,10 @@
   "keywords": [
     "gruntplugin"
   ],
-  "dependencies": {
+  "optionalDependencies": {
     "phantomjs": "~1.9.2-2"
+  },
+  "dependencies": {
+    "which": "~1.0.5"
   }
 }
