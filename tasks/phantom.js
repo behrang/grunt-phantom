@@ -35,7 +35,7 @@ module.exports = function(grunt) {
     // Spawn PhantomJS.
     phantom = grunt.util.spawn({
       cmd: binPath,
-      args: ['--webdriver=' + port]
+      args: ['--webdriver=' + port].concat(options.args || [])
     }, function () {
       // It's a fatal error when spawned process is killed unexpectedly.
       stopped = true;
