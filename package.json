@@ -1,7 +1,7 @@
 {
   "name": "grunt-phantom",
   "description": "Start PhantomJS web driver.",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "homepage": "https://github.com/behrang/grunt-phantom",
   "author": {
     "name": "Behrang Noruzi Niya",
